@@ -17,7 +17,7 @@ logo{
     grid-column-gap: 5%;
   }
   td{
-    height: 40px;
+    height: 20px;
   }
   h1{
     text-align: center;
@@ -32,3 +32,8 @@ logo{
     text-decoration: none;
     color: black;
   }
+  #coment{
+    font-size: x-small;
+  }
+
+  tbody{vertical-align: top;}
