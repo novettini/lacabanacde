@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="laCabaña.css">
+    <link rel="stylesheet" href="bootstrap.css      ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>La cabaña</title>
 </head>
-<body>
+<body><nav class="navbar bg-dark fixed-top bg-body-tertiary" data-bs-theme="dark">
+    <ul id="navegador">
+    <li id="nav"><a href="#pizzas">Pizzas</a></li>
+    <li id="nav"><a href="#empanadas">Empanadas</a></li>
+    <li id="nav"><a href="#calzones">Calzones</a></li>
+    <li id="nav"><a href="#bebidas">Bebidas</a></li>
+  </ul></nav>
     <header><div id="logoArriba"> <img id="logo" src="logoCabaña.png" ></div></header>
-    <div><header><h1>PIZZAS</h1></header></div>
+    <div><header id="pizzas"><h1>PIZZAS</h1></header></div>
     <div id="wrapper">
         <table>
             <tr><td>Muzzarella<span id="coment"> (Salsa de tomate, muzzarella, aceitunas)</span></td><td>$2600</td></tr>
@@ -97,5 +104,34 @@
         <section id="pieDePagina">En el caso de solicitar pizzas por mitades<br> se cobrará el importe de la de mayor valor<br>
             seguinos en:<br><a href="https://instagram.com/lacabanacde"><i class="fa fa-instagram" id="fa" aria-hidden="true">lacabanacde</i></a></section>
         </div>
-</body>
+        <div><header id="empanadas"><h1>Empanadas</h1></header></div>
+    <div id="wrapper">
+        <table>
+                <tr><td>Carne</td><td>Queso y cebolla</td></tr>
+                <tr><td>Jamón y verdeo</td><td>Verdura</td></tr>
+                <tr><td>Verdura</td><td>Humita</td></tr>
+                <tr><td>Pollo</td><td>La colo <br><span id="coment"> (Muzzarella y chorizo colorado)</span></td></tr>
+                <tr><td>La cabaña<br><span id="coment"> (Muzzarella, tomate y albaca fresca)</span></td><td>Boquerones<br><span id="coment"> (Muzzarella y boquerones de anchoa ahumados)</span></td></tr>
+                <tr style="text-align: center;"><td colspan="2">Empanada ....................$380<br><span id="coment">(consultar dispocision del día)</span></td>
+                <tr style="text-align: center;"><td>Empanadas...$340</td><td>Canastitas...$380</td></tr>
+                </table>
+                <div>
+                    <section id="pieDePagina">Nuestras empanadas no son recalentadas, se arman y se cocinan<br>en el momento que usted las pide, eso garantiza frescura y calidad<br>
+                        seguinos en:<br><a href="https://instagram.com/lacabanacde"><i class="fa fa-instagram" id="fa" aria-hidden="true">lacabanacde</i></a></section>
+                    </div>
+                    </div>
+                    <div><header id="calzones"><h1>Calzones</h1></header></div>
+                    <div id="wrapper">
+                    <section>
+                        <ol>
+                            <li>Jamon, muzzarella, tomate, huevo duro</li>
+                            <li>Jamon, muzzarella, tomate, albahaca</li>
+                            <li>Jamon, muzzarella, tomate, roquefort</li>
+                            <li>Jamon, muzzarella, tomate, roquefort, longaniza</li>
+                            <li>Jamon, muzzarella</li>
+                            <li>Muzzarella, atún, provolone, palmitos</li>
+                           </ol>
+                        </section>
+                        </div>
+                    </body>
 </html>
