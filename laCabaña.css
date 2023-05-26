@@ -9,7 +9,7 @@ logo{
 }
 #wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     background-repeat: no-repeat;
     align-items: center;
     margin-left: 5%;
