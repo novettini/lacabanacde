@@ -31,11 +31,14 @@
     margin-top: 2%;
     width: 90%;
   }
+  a{color:white !important;
+    text-decoration: none!important;
+  }
   #fa{
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: white;
   }
   #coment{
     font-size: x-small;
@@ -44,6 +47,7 @@
   tbody{vertical-align: top;}
   
   #navegador, #nav, .navbar {
+    color: white;
     text-align: center;
     list-style-type: none;
     margin: 0;
@@ -51,12 +55,11 @@
     display: inline;
     justify-content: space-around !important;
   }
-
-  nav{    text-align: center;}
-
-  table{width:50%;}
-
-  /* ol{bottom:} ; */
+table{width:50%;}
+#footer{justify-content: center !important;
+}
+  ol{padding-top: 2%;
+    padding-bottom: 10%} ;
 
 li::marker{
   background-color: rgb(255, 255, 255);
@@ -64,15 +67,38 @@ li::marker{
   font-size:x-large;
 }
     
-#calzones, #empanadas, #pizzas{
-  padding-top: 2%;
-  padding-bottom: 0.5%;
+
+#coment{
+  font-size: x-small;
+  color: grey;
+}
+.empanadas{
+  text-align: center;
 }
 
+hr{
+  width:50%;
+  background-color: black;
+  height: 4px;
+
+}
 
   @media only screen and (max-width: 600px) { 
     table{
       width:100%;
     }
+    ol{padding-bottom: 10%;}
+    #logoArriba{
+      padding-top: 10%;
+    }
+    #logoArriba, img{
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+      object-fit: cover;
+      padding-top: 8%;
   }
+  }
+  
+
   
