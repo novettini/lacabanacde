@@ -85,9 +85,21 @@ hr{
 
   @media only screen and (max-width: 600px) { 
     table{
-      width:100%;
+      width:80%;
     }
-    ol{padding-bottom: 10%;}
+    ol{padding-bottom: 10%;
+      margin: auto;
+      text-align: center;
+      width: 80%;
+    }
+    .navbar{
+      max-width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    body{
+      width: 100%;
+    }
     #logoArriba{
       padding-top: 10%;
     }
@@ -98,7 +110,13 @@ hr{
       object-fit: cover;
       padding-top: 8%;
   }
+  #pieDePagina{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
   }
-  
+  }
+
 
   
