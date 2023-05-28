@@ -92,10 +92,7 @@ hr{
       text-align: center;
       width: 80%;
     }
-    .navbar{
-      max-width: 100%;
-    }
-    body{
+      body{
       width: 100%;
     }
     #logoArriba{
@@ -107,10 +104,6 @@ hr{
       margin-right: 25%;
       object-fit: cover;
       padding-top: 8%;
-  }
-  #pieDePagina{
-    width: 100%;
-   }
   }
 
 
