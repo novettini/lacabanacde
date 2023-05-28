@@ -93,9 +93,7 @@ hr{
       width: 80%;
     }
     .navbar{
-      max-width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
+      max-width: 100%;
     }
     body{
       width: 100%;
@@ -111,11 +109,8 @@ hr{
       padding-top: 8%;
   }
   #pieDePagina{
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+    width: 100%;
+   }
   }
 
 
